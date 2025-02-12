@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometry Activity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Trigonometry Challenge</h2>
+        <p>Find the unknown length (x) in the right-angled triangle below.</p>
+        
+        <img src="triangle.jpg" alt="Trigonometry Question" class="triangle-img">
+
+        <form id="quizForm">
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" required>
+
+            <label for="studentAnswer">Your Answer (in cm):</label>
+            <input type="number" id="studentAnswer" step="0.01" required>
+
+            <button type="submit">Submit Answer</button>
+        </form>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
